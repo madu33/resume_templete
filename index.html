@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- google material icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                    <h2 class="text-muted">Logo</h2>
+                </div>
+                <div class="close" id="btn-close">
+                    <span class="material-icons">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons">menu</span>
+                    <h3>Dashboard</h3>
+                </a>
+
+                <a href="#" class="active">
+                    <span class="material-icons">account_circle</span>
+                    <h3>Customer</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons"> list_alt</span>
+                    <h3>Order<small class="count">20</small></h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons">bar_chart</span>
+                    <h3>analytics</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons">mail</span>
+                    <h3>Message<small class="count">03</small></h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons">inventory_2</span>
+                    <h3>Products</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons">add_shopping_cart</span>
+                    <h3>Add Products</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons">settings_applications</span>
+                    <h3>Settings</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons">logout</span>
+                    <h3>LogOut</h3>
+                </a>
+            </div>
+        </aside>
+
+            <main>
+                <h1>Dashboard</h1>
+                <div class="date">
+                    <input type="date">
+                </div>
+                <div class="insights">
+                    <div class="sales">
+                        <span class="material-icons">analytics</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Sales</h3>
+                                <h1>$50,000</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx='38' cy='38' r='36'></circle>
+                                </svg>
+                                <div class="number">
+                                    <p>80%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <small class="text-muted">Last 48 Hours</small>
+                    </div> 
+                    <!--End Of Sales-->
+
+                    <div class="expenses">
+                        <span class="material-icons">analytics</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Expenses</h3>
+                                <h1>$73,000</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx='38' cy='38' r='36'></circle>
+                                </svg>
+                                <div class="number">
+                                    <p>50%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <small class="text-muted">Last 48 Hours</small>
+                    </div> 
+                    <!--Expenses Of Sales-->
+
+                    <div class="income">
+                        <span class="material-icons">analytics</span>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Income</h3>
+                                <h1>$25,000</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx='38' cy='38' r='36'></circle>
+                                </svg>
+                                <div class="number">
+                                    <p>80%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <small class="text-muted">Last 48 Hours</small>
+                    </div> <!--End Of Income-->
+                </div> <!-- End of insights  -->
+
+                <div class="recent-order">
+                    <h2>Recent Orders</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Product Name</td>
+                                <td>Product Price</td>
+                                <td>Product Description</td>
+                                <td>Product Name</td>
+                                <td>Product Name</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Rice</td>
+                                <td>Rice</td>
+                                <td>Rice</td>
+                                <td class="warning">Rice</td>
+                                <td class="primary">Rice</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#">Show All</a>
+                </div> <!-- --------------end of recent order -------------- -->
+
+            </main>
+
+    </div> 
+    <!-- End Container -->
+    
+</body>
+</html>
